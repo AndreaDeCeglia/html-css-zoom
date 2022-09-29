@@ -4,7 +4,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid black; */
+    border: 1px solid black;
+}
+
+.vh100{
+    height: 100vh;
 }
 
 /* scrollbar section */
