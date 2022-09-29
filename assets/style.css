@@ -1,4 +1,4 @@
-#upper{
+/* #upper{
     height: 5vh;
 }
 
@@ -9,6 +9,12 @@
 
 #comands-bar{
     height: 10vh;
+} */
+
+/* upper part */
+
+#upper{
+    background-color: black;
 }
 
 span{
@@ -30,6 +36,11 @@ span{
     align-items: center;
 }
 
+/* partecipants part */
+
+#partecipants{
+    background-color: black;
+}
 
 .mic{
     position: absolute;
@@ -44,7 +55,7 @@ span{
 }
 
 .card{
-    height: calc( 100% / 5 );
+    height: calc( 100% / 6 );
 }
 
 .image{
@@ -52,46 +63,27 @@ span{
     height: 100%;
 }
 
-#comands-bar {
-    width: 100%;
-    background-color: #222;
-    display: flex;
-    justify-content: space-between;
-  
-}
-#comands-bar a {
-    display: flex;
-}
+/* footer part */
 
-
-#comands-bar div {
-    display: flex;
-    font-size: 1.2rem;
+#comands-bar{
+    background-color: gray;
     color: white;
-    margin-left: 1rem;
-   
+    width: 100%;
 }
 
-
-#comands-bar a i.fa-share-square{
-    color: #4bc800;
-}
-
-
-#comands-bar a>div{
-    display: flex;
-    flex-flow: column wrap;
+.left-footer, .central-footer, .right-footer{
     align-items: center;
-    justify-content: space-evenly;
-    margin: 0 5px;
+    
 }
 
-#comands-bar a.end{
-    background-color: #4a4a4a;
-    color: red;
-    font-size: 13px;
-    display: inline-block;
-    height: 100%;
-    line-height: 65px;
-    padding: 0 20px;
+.icon-up{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin:0 20px;
+}
+
+.share-screen i{
+    color: green;
 }
