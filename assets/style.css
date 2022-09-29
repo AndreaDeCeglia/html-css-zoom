@@ -1,0 +1,97 @@
+#upper{
+    height: 5vh;
+}
+
+#partecipants{
+    height: 85vh;
+    padding: 2%;
+}
+
+#comands-bar{
+    height: 10vh;
+}
+
+span{
+    padding: 1%;
+    background-color: gray;
+    color: white
+}
+
+#upper div{
+    align-items: center;
+    height: 80%;
+    border-radius: 10px;
+    background-color: gray;
+    color: white;
+    padding: .3% .5%;
+}
+
+#upper i{
+    align-items: center;
+}
+
+
+.mic{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card{
+    height: calc( 100% / 5 );
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+}
+
+#comands-bar {
+    width: 100%;
+    background-color: #222;
+    display: flex;
+    justify-content: space-between;
+  
+}
+#comands-bar a {
+    display: flex;
+}
+
+
+#comands-bar div {
+    display: flex;
+    font-size: 1.2rem;
+    color: white;
+    margin-left: 1rem;
+   
+}
+
+
+#comands-bar a i.fa-share-square{
+    color: #4bc800;
+}
+
+
+#comands-bar a>div{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 5px;
+}
+
+#comands-bar a.end{
+    background-color: #4a4a4a;
+    color: red;
+    font-size: 13px;
+    display: inline-block;
+    height: 100%;
+    line-height: 65px;
+    padding: 0 20px;
+}

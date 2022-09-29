@@ -13,7 +13,7 @@
 
 /* scrollbar section */
 
-body::-webkit-scrollbar {
+/* body::-webkit-scrollbar {
     width: 7px;
     display: none;
   }
@@ -26,7 +26,7 @@ body::-webkit-scrollbar {
   body::-webkit-scrollbar-thumb {
     background-color: #0061FF;    
     border-radius: 20px;       
-  }
+  } */
  
 /* various */
 
@@ -38,9 +38,14 @@ body::-webkit-scrollbar {
     text-decoration: none;
 }
 
-img{
+/* img{
+    height: 100%;
     width: 100%;
-}
+    object-fit: cover;
+    background-repeat: no-repeat;
+} */
+
+
 
 a{
     cursor: pointer;
