@@ -13,6 +13,10 @@
 
 /* upper part */
 
+html{
+    font-size: 16px;
+}
+
 #upper{
     background-color: black;
 }
@@ -42,6 +46,10 @@ span{
     background-color: black;
 }
 
+.card{
+    padding: 0.2%;
+}
+
 .mic{
     position: absolute;
     bottom: 0;
@@ -55,7 +63,7 @@ span{
 }
 
 .card{
-    height: calc( 100% / 6 );
+    height: calc( 100% / 7 );
 }
 
 .image{
@@ -65,7 +73,7 @@ span{
 
 /* footer part */
 
-#comands-bar{
+#commands-bar{
     background-color: gray;
     color: white;
     width: 100%;
@@ -81,7 +89,7 @@ span{
     flex-direction: column;
     align-content: center;
     align-items: center;
-    margin:0 20px;
+    margin-left: 20px;
 }
 
 .share-screen i{
